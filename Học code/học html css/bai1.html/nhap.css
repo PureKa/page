@@ -1,0 +1,113 @@
+*{
+font-family:tinh;
+}
+
+/* phần căn chỉnh chỉnh sủa text */
+
+.a1{
+    border: 1px solid blue ;
+    background-color: aquamarine;
+    outline-style:dotted;
+    outline-width:5px;
+    outline-color:crimson;
+    outline-offset:5px;
+    text-align: center;
+    padding:10px
+}
+.a{
+    vertical-align: text-top;
+}
+.b{
+    vertical-align:baseline;
+}
+.c{
+    vertical-align:text-bottom;
+}
+.a2{
+    text-align: center;
+    background-image:url(hoaqua.jpg);
+    color:rgb(197, 21, 21);
+}
+.a3{
+    background-color: bisque;
+    border: 2px dashed;
+    padding: 10px;
+}
+/* chỉnh sủa link  */
+.a5{
+  color: rgb(230, 230, 230);  
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+}
+.a5:hover{
+    background-color: rgb(102, 96, 96);
+    color: aqua;
+    cursor:wait;
+}
+.a5:active{
+    background-color: blueviolet;
+    color: azure;
+}
+.a6{
+    border: 3px solid;
+    width: 200px;
+    padding: 20px;
+    text-align: justify;
+    background-color: antiquewhite;
+}
+/* chỉnh sửa ký tự phần đầu của text */
+.a7{
+    list-style-type:square;
+    list-style-position: inside;
+}
+/* làm thanh ngang ul li a8 */
+.a8{
+    background-color: aqua;
+    padding:20px;
+    text-align: center;
+    list-style-type: none;
+}
+.i{
+    color: fuchsia;
+    padding: 20px;
+    display: inline;
+}
+.i:hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    cursor:pointer
+}
+/* tạo bảng tablle chỉnh sửa bảng  */
+.a11{
+    border: 3px dotted;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 2px solid red;
+    border-collapse:collapse;
+    background-color: bisque;
+}
+th,td{
+    background-color: cadetblue;
+    border-radius:30px;
+    text-align: center;
+    height: 50px;
+    vertical-align: top;
+}
+#img{
+    border-radius: 50px;
+}
+#th1{
+    background-image:url(tinhka.jpg);
+    color: blue;
+}
+caption{
+    background-color: bisque;
+    border: 1px solid blue;
+}

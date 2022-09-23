@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* ảnh đàng trước text */
+            h1::before{
+                content: url(border.png);
+            }
+            /* ảnh đang sau text */
+            h1::after{
+                content: url(border.png);
+            }
+            ul{
+                background-color: blue;
+                list-style-type: none;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+            li{
+                display: inline-block;
+                padding: 22px;
+                font-size: 30px;
+            }
+            li:hover{
+                background-color: aqua;
+                cursor: wait;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>tinh</h1>
+        <ul>
+            <li>home</li>
+            <li>login</li>
+            <li>help</li>
+            <li>facebook</li>
+        </ul>
+    </body>
+</html>

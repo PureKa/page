@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascrip</title>
+    </head>
+    <body>
+
+        <div id="name"></div>
+        <input type="text" name="" id="input1">
+        <input type="text" name="" id="input2">
+        <button id="button1" onclick="tinhka()">kiểm tra</button>
+
+
+
+        <!-- -----------------------------------javascrip --------------------------- -->
+        <script>
+            var a = 2;
+            var b = 8;
+            var c = a + b ;
+            
+            
+            function tinhka() {
+                var input1 = document.getElementById("input1").value
+
+                var input2 = document.getElementById("input2").value
+
+                var tong = input1 + input2
+                
+            if (tong % 2 == 0){
+                document.getElementById('name').innerHTML = "số chãn"
+            } else {
+                document.getElementById('name').innerHTML = "số lẻ"
+            }
+            }
+            
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+/* bai tập 10 phần 1 */
+    .bt1{
+    background-image: url(o3.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0 ;
+    border: 3px solid;
+    } 
+.v1{
+    padding-top:90px;
+    text-align: center;
+    color: white;
+}
+.v2{
+    padding-top:40px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+.ul1{
+    text-align: center;
+    padding-top: 60px;
+}
+li{
+    list-style-type:none;
+}
+.v3{
+    text-decoration:none;
+    background-color: brown;
+    padding: 25px;
+    font-size:18px;
+    border-radius:7px;
+    color: white;
+}
+.v3:hover{
+    background-color: rgb(184, 58, 58);
+}
+/* bai tâp 1/2 */
+.bt2{
+    text-align: center;
+    border: 2px solid;
+    padding: 30px;
+    background-color: rgb(218, 216, 214);
+}
+#b1{
+    background-color: dimgrey;
+    padding: 20px;
+    font-size: 25px;
+}
+#b2{
+    color: rgb(77, 77, 230);
+}
+#li1 , #li2{
+    display: inline-table;
+    background-color:rgb(37, 37, 37) ;
+    padding: 20px;
+}
+.a1, .a2{
+    text-decoration:none;
+    color:white;
+}
+#li1:hover, #li2:hover{
+    background-color: black;
+}
+/* bài tập 1/3 */
+
+.e2{
+float: left;
+background-color: rgb(114, 109, 109);
+width: 300px;
+height: 150px;
+padding-top: 230px;
+padding-left: 120px;
+}
+.a3{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.e2:hover{
+    background-color: rgb(128, 122, 122);
+    cursor: wait;
+}
+.e3{
+    padding-left:30%;
+}
+
+.a4{
+   border: 2px solid black;
+   text-decoration:none;
+   color: black;
+}
+.a4:hover{
+    background-color: rgb(216, 210, 210);
+}
+

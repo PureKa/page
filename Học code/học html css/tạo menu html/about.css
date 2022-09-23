@@ -1,0 +1,156 @@
+*{
+    font-family:'Montserrat', sans-serif ; 
+    margin: 0;
+    padding: 0;
+}
+/* HOME */
+.header{
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1500px; ;
+    margin: 0px auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.ulheader{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    padding: 17px 0px;
+}
+.ulheader .liheader a{
+    color: #191919;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+/*  */
+/* about */
+.about1{
+    text-align: center;
+    background-image:url(boutnena.jpg);
+    background-position-x: 50%;
+    padding: 110px;
+}
+.h2about{
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+.pabout{
+    color: #d7d7d7;
+}
+/*  */
+/* about2 */
+.about2{
+    background-color:#10c9c3 ;
+    justify-items: center;
+    padding: 50px;
+}
+.navabout{
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.aboutimg{
+    float: left;
+}
+.aboutdiv1{
+    width: 500px;
+   
+}
+.aboutdiv2{
+    width: 500px;
+    padding-left: 80px;
+}
+.aboutdiv3{
+    width: 500px;
+    padding-left: 80px;
+}
+.aboutdiv4{
+    width: 500px;
+    padding-left: 80px;
+}
+/*  */
+/* about me */
+.aboutme1{
+    display: flex;
+    background-color: #f5f5f5;
+}
+.aboutme2{
+    justify-content: center;
+    justify-items: center;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.aboutmeimg2{
+    padding-top: 60px;
+}
+.h2aboutme{
+    padding-bottom: 30px;
+}
+.aboutmep{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+}
+/*  */
+/* Need a Project */
+.NeedaProject{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 80px 0px ;
+}
+.h2needaproject{
+    color: #505050;
+}
+.pneedaproject{
+    color: #ababab;
+    padding: 20px 0px;
+}
+button{
+    background-color:#10c9c3 ;
+    padding: 10px 20px;
+    border: none;
+    border-radius:5px;
+    color: #ffffff;
+}
+
+/*  */
+/* forder */
+
+.forder{
+    background-color: #141414;
+    padding: 80px;
+  }
+  .tableforder{
+    width: 100%;
+  }
+  .h2forder{
+    color: #ffffff;
+    padding-bottom: 10px;
+  }
+  .pforder{
+    color: #b4b4b4;
+  }
+  .tdfordr{
+    width: 10%;
+  }
+  .fordera{
+    text-decoration: none;
+    color: #b4b4b4;
+    display: block;
+  }
+  .tdfoder5{
+    width: 300px;
+  }
+  
+  

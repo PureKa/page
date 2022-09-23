@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <fieldset>
+        <legend>tên viền</legend>
+    <head>
+        <title>tinhka</title>
+    </head>
+
+    <body>
+        <h1 style="color:blue">Tịnh</h1>
+
+        <form action="/action_page.php">
+            <label for="cars">choose a car</label>
+
+            <select name="cars" id="cars" size="3" multiple>
+
+                <option value="saab">saab</option>
+                <option value="fiat">fiat</option>
+                <option value="audi" selected>audi</option>
+            </select>
+            <br>
+            <textarea name="message" rows="30" cols="40"> đây là text eriaa</textarea>
+
+            <input list="browsers" name="browser">
+
+            <datalist id="browsers">
+            
+                <option value="tinhka"></option>
+                <option value="chome"></option>
+                <option value="herlo"></option>
+                
+            </datalist>
+            <br>
+            <label for="favcolor">chọn màu</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            <br>
+            <input type="submit" value="submit">
+            <hr>
+           
+        </form>
+        <button type="button" onclick="alert('Hello World')">
+            bấm vào để sung sướng</button><br>
+            
+            <p>lịch</p>
+
+        <label for="birthday">birthday</label>
+
+        <input type="date" id="birthday" name="birthday" min="2000-03-01"><br>
+        <input type="date" id="datemax" name="datemax" max="2222-03-01">
+        <input type="submit" value="submit">
+        </fieldset>
+
+        <form oninput="x.value=parseInt(a.value)">
+            <input type="range" id="a" value="50">
+            <output name="x" for="a"></output>
+            <input type="submit"><br>
+
+            <label for="name">name</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="pwd">pass</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <input type="submit" value="submit">
+            <br>
+
+            <label for="quannity">quannity nhỏ hơn hoạc =5</label>
+
+            <input type="number" id="quantity" name="quantity" min="1"
+            max="5"></input>
+        </form>
+    
+
+       
+
+        
+        
+    </body>
+</html>

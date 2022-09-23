@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.divheader{
+    background-image: url(groupaetinhka.jpg);
+    opacity: .8;
+    height: 320px;
+    background-position-x: -10%;
+    background-position-y: 20%;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.containerheader {
+    text-align: center;
+    opacity: 5;
+    color: rgb(19, 7, 31);
+    font-family: 'Aboreto', cursive;
+    font-size: 22px;
+    max-width: 400px;
+    margin: auto;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.containerheader h1{
+    color: black;
+}
+.containerheader address{
+    color: blue;
+}
+.containermenu{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+.menungang{
+    max-width: 1000px;
+    margin: auto;
+    animation-iteration-count: infinite;
+}
+.menungang ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style: none;
+}
+.menungang ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 10px;
+}
+.menungang ul li{
+    padding: 0px 10px;
+}
+.menungang ul li:hover{
+    background-color: rgb(51, 50, 50);
+    color: crimson;
+}
+.menungang ul li a:hover{
+    color:chartreuse;
+}
+@media screen and (max-width:600px){
+    *{box-sizing: border-box;}
+    .divheader{
+        background-size: 100%;
+    }
+    .containerheader{
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .menungang{
+        max-width: 300px;
+        margin: auto;
+
+    }
+}

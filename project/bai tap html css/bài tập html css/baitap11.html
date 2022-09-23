@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border:1px solid;
+            }
+            body{
+                background-color: lightpink;
+            }
+            
+        
+           
+        </style>
+
+    </head>
+    <body>
+        <form action="">
+            <table style="background:rgb(109, 203, 206)">
+                <caption style="color:coral">Đăng nhập</caption>
+                <tr>
+                    <th><label for="name">Tài khoản</label></th>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <th><label for="pwd">Tài khoản</label></th>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center"><button>đồng ý</button></td>
+                 </tr>
+            
+            </table>
+        </form>
+        <h2>Bài 12</h2>
+        <form action="">
+            <table style="background-color:rgb(195, 216, 200)">
+                <caption style="color:rgb(3, 192, 82); font-size:30px;">Phiếu đăng ký tham gia
+                     trương trình khuyễn mãi</caption>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">họ và tên</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">địa chỉ</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">điện thoại</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">phái</th>
+                    <td>
+                        <input type="radio" id="name" name="name">
+                        <label style="color:rgb(3, 192, 82)" for="name">Nam</label>
+
+                        <input type="radio" id="namel" name="namel">
+                        <label style="color:rgb(3, 192, 82)" for="namel">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">chọ sản phẩm tham gia</th>
+                    <td>
+                        <input type="checkbox" name="a" id="a">
+                        <label for="a">kem đánh răng</label><br>
+
+                        <input type="checkbox" id="b" name="b">
+                        <label for="b">sữa tám</label><br>
+
+                        <input type="checkbox" id="c" name="c">
+                        <label for="c">khăn tắm</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(3, 192, 82)">số người dự tính tham gia</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><button type="button"
+                         onclick="alert('bạn đã đang ký thành công')">
+                         đồng ý</button></th>
+                </tr>
+            </table>
+        </form>
+
+
+
+        <h2>Bài 13</h2>
+        <form action="">
+            <table style="background-color: rgb(229, 197, 186)">
+                <caption style="background-color: coral;font-size:30px;color:rgb(23, 73, 167)">Đăng ký du lịch</caption>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">Họ và tên</th>
+                    <td><textarea name="messenger" id="" cols="20" rows=""></textarea></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">Địa chỉ</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">Điện thoại</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">khách Việt Nam</th>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">chọn tour</th>
+                    <td>
+                        <select name="name" id="">
+                            <option value=""disabled>Miền Bắc:</option>
+                            <option value="">Hà Nội-Hạ Long-Sapa</option>
+                            <option value="">Hà Nội-Chùa Hương-Ninh Bình</option>
+                            <option value="">Hà Nôi-Cát Bà-Tuần châu</option>
+                            <option value=""disabled>Miền Trung:</option>
+                            <option value="">Huế-Bạch Mã-Đà Nẵng</option>
+                            <option value="">Nha Trăng-Đà Lạt</option>
+                            <option value="">Buôn mê Thuật-Gia Lai-Kontum</option>
+                            <option value=""disabled>Miền Nam</option>
+                            <option value="">TP.HCM-Cần Thơ-Cà Mau</option>
+                            <option value="">TP.HCM-Mỹ Tho</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                    <fieldset>
+                        <legend style="color:chocolate">số lượng đoàn khác</legend>
+                        <label for="lname" style="color:rgb(26, 173, 173)">người lớn</label>
+                        <input type="number" name="lname" id="lname">
+
+                        <label for="tre" style="color:rgb(26, 173, 173)">trẻ em</label>
+                        <input type="number" name="tre" id="tre">
+                    </fieldset>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="color:rgb(26, 173, 173)">Ghi chú thêm</th>
+                    <td>
+                        <textarea name="messenger" id="" cols="30" rows=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2"><button type="button" onclick="alert('bạn đã đang ký thành công')">Đồng ý</button></th>
+                </tr>
+            </table>
+        </form>
+       
+    </body>
+</html>

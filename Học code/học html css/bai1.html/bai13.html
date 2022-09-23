@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                color: brown;
+                text-align: center;
+                background-color: aquamarine;
+                font-size: 40px;
+                width: 400px;
+                margin-left:50% ;
+                padding: 10px;
+            }
+            /*  */
+            /*  */
+            /* phần 1 */
+            .p1{
+                white-space: nowrap;
+                width: 300px;
+                border:1px solid black ;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .p1:hover{
+                overflow: visible;
+            }
+            /*  */
+            /* phần 2 */
+            .span1{
+                writing-mode: vertical-rl;
+            }
+            /*  */
+            /* phần 3 */
+            .div1{
+                width: 300px;
+                height: 100px;
+                background-color: darkkhaki;
+                border: 1px solid black;
+                /* transform: translate(80px,80px); */
+                /* transform: rotate(70deg); */
+                /* transform: rotate(-70deg); */
+                /* transform: scale(1,3) ; */
+                /* transform: skewX(30deg); */
+                /* transform: skewY(30deg); */
+                /* transform: skew(30deg,10deg); */
+                /* transform: matrix(1, -0.6, 0, 1, 0, 0); */
+                /* transform: rotateX(150deg); */
+                /* transform: rotateY(150deg); */
+                transform: rotateZ(50deg);
+
+            }
+            /*  */
+            /* phần4 */
+            /* .div2{
+                height: 50px;
+                width: 300px;
+                background-color: aqua;
+                transition: width 3s, height 4s;
+            }
+            .div2:hover{
+                width: 350px;
+                height: 300px;
+            }    */
+            
+             div{
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                transition: width 2s, height 2s, transform 2s;
+                /* transition-property: width;  */
+                /* transition-duration: 1s; */
+                 /* transition-timing-function: linear; */
+                /* transition-delay: 1s; */
+            }
+
+            .div3{transition-timing-function: linear;}
+            .div4{transition-timing-function: ease;}
+            .div5{transition-timing-function: ease-in;}
+            .div6{transition-timing-function: ease-out;}
+            .div7{transition-timing-function: ease-in-out;} 
+
+            div:hover{
+                width: 300px; 
+                /* height: 300px; 
+                transform: rotate(360deg);  */
+            }
+            /*  */
+         /* phần5  */
+            .v1{
+                width: 100px;
+                height: 100px;
+                animation-name: e2; 
+                animation-name: example;
+                animation-duration: 5s;
+            }
+            @keyframes example {
+                from {background-color: red;}
+                to { background-color: blue;}
+                0% {background-color: red;}
+                25% { background-color: blue;}
+                50% {background-color: blueviolet;}
+                100% {background-color: rgb(112, 53, 65);}
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>TỊNH</h1>
+        <!--  -->
+        <!-- phần 1 -->
+        <!--  -->
+
+        <p class="p1"> gió mua đông bác, khí hậu nóng và khô Lượng mưa trung bình.</p>
+
+        <!--  -->
+        <!-- phần 2 -->
+        <p>ió mua đông bác, khí hậu nóng <span class="span1">  và khô Lượng mưa trung bình</span> và khô Lượng mưa trung bình</p>
+        <!--  -->
+        <!-- phần 3 -->
+        <div class="div1">
+         Lượng mưa trung bình <br>
+        chỉ có 800-1.150 mm, nơi có lượng mưa ít nhất trong khu vực Nam Bộ. Phan <br>
+        Thiết là 1 trong những thành phố 
+        </div>
+        <!--  -->
+        <!-- phần 4 -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="div2">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <br>
+        <div class="div3">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <br>
+        <div class="div4">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <br>
+        <div class="div5">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <br>
+        <div class="div6">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <br>
+        <div class="div7">chỉ có 800-1.150 mm, nơi có lượng mưa ít nhấ</div>
+        <!--  -->
+        <!-- phần 5 -->
+        <br>
+        <div class="v1" style="background-color:red ;"></div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="zooo"></div>
+    <button id="onclick1" onclick="chuot()">chuột</button>
+    <button onclick="ga()">gà</button>
+    <button onclick="sutu()">sutu</button>
+    
+    <script>
+        const array = ['a','b','c','d']
+        //console.log(array.slice(1,3))
+        //  array.splice(1, 0,'tinh')
+        //  array.splice(3, 0,'tinh ka')
+        //  console.log(array)
+
+        // bài tập
+        /*var zoo = ["chim","lợn", "gà"];
+        document.getElementById("zooo").innerHTML = zoo
+
+        function chuot() {
+            var chuot = zoo.splice(0, 0, "chuột")
+            document.getElementById("zooo").innerHTML = chuot + zoo
+        }
+        function ga() {
+            var ga = zoo.splice(3, 0, "gà")
+            document.getElementById("zooo").innerHTML = zoo + ga
+        }
+        function sutu() {
+            var sutu = zoo.splice(1, 0, "sư tử")
+            document.getElementById("zooo").innerHTML = zoo + sutu
+        }
+        */
+
+        //loop
+        /*
+        for(i = 0; i<=5; i++){
+            document.write("Tịnh ka" + "<br>")
+        }
+        for(i = 99; i>=1; i--) {  //giảm dần
+            document.write(i)
+        }
+        for(i = 1; i<=99; i++) { // tăng dần
+            console.log(i)
+        }
+        */
+        const cut = 0
+        for(i = 1; i<=99; i++) { // lọc số chãn
+           
+            if(i%2==0){
+                console.log(i)
+            }else{
+                console.log("số lẻ:", i)
+            }
+        }
+    </script>
+</body>
+</html>

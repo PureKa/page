@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>xsmb</title>
+        <style>
+            .container {
+                text-align: center;
+            }
+            .container h2 {
+                color: rgb(14, 110, 78);
+            }
+            .container #xoso {
+                border: 3px solid greenyellow;
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                text-align: center;
+                margin: auto;
+                border-radius: 5px;
+                font-size: 30px;
+            }
+            #submit{
+                background-color: chartreuse;
+                margin-top: 20px;
+                width: 100px;
+                height: 30px;
+                border-radius: 3px;
+                border-color:rgb(67, 57, 57) ;
+                font-weight: 700;
+            }
+            #input1{
+                text-align: center;
+                border-color:rgb(67, 111, 1);
+                border-radius: 5px;
+            }
+            #text{
+                color: red;
+                font-weight: 500;
+            }
+        </style>
+    </head>
+<!-- ----------------------------- --------------------------------->
+    <body>
+        <div class="container">
+
+            <audio controls>
+                <source src="xsmb.mp3">
+            </audio>
+
+            <h2>Xổ Số Trúng Thưởng</h2>
+            <div id="xoso"></div>
+            <button id="submit" onclick="xsmb()">Quay Số</button> <br>
+            <br>
+            <input type="number" name="" id="input1" placeholder="chọn sô 0-9">
+            <p id="text">Truy Agian</p>
+        </div>
+
+<!-- ------------------------------------------------------------ -->
+        <script>
+
+            function xsmb(tinhkaxsmb) {
+                var xosomb = Math.floor(Math.random()*10)
+                var chonxoso = document.getElementById('input1').value
+
+                document.getElementById('xoso').innerHTML = xosomb
+                if (xosomb == chonxoso) {
+                    document.getElementById('text').innerHTML = "congrats on your win"
+                } else {
+                    document.getElementById('text').innerHTML ='Truy Agian'
+                }
+                if  (chonxoso == '') {
+                    alert("vui lòng nhập số")
+                }                  
+            }
+           
+        </script>
+
+    </body>
+</html>

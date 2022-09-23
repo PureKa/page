@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tịnh ka</title>
+        <style>
+            .contai{
+                display: flex;
+            }
+            .contais{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="contais">
+        <ul id="dv1"></ul>
+        <ul id="dv2"></ul>
+       </div>
+        <div class="contai">
+            <ul id="dv3"></ul>
+            <ul id="dv4"></ul>
+        </div>
+        <script>
+            var animal = [
+                {
+                    rank : ["chó", "mèo", "tôm","cua", "alo","gà"]
+                   
+                    
+                },
+                {
+                    lever1 : ["chó", "mèo", "tôm","cua", "alo","gà"]
+                    
+                },
+                {
+                    name: ""
+                }
+            ]
+            
+            for( i = 0; i <= 5; i++) {
+                document.getElementById("dv1").innerHTML += "<li>" + animal[0].rank[i] +"</li>"
+            }
+            for( i = 5; i >= 0; i--) {
+                document.getElementById("dv2").innerHTML +=  "<li>" + animal[0].rank[i] +"</li>" 
+            }
+            for(i = 0; i<=100; i++){
+                if(i%2==animal[2].name){
+                    document.getElementById("dv3").innerHTML +=  "<li>" + "số chãn: "+ i + "</li>"
+                }else{
+                    document.getElementById("dv4").innerHTML +=  "<li>" + "số lẻ: "+ i + "</li>"
+                }
+            }
+
+
+            
+        </script>
+    </body>
+</html>

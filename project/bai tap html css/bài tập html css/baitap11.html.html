@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* bài 1 */
+            /*  */
+           ul{
+            list-style-type: none;
+            background-color: pink;
+            text-align: center;
+           }
+           li {
+            color: aliceblue;
+            display: inline-table;
+            width: 160px;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+           }
+           li a{
+            display: block;
+            text-decoration: none;
+            color: aliceblue;
+            font-size:20px
+           }
+           .li1{
+            background-color: red;
+           }
+           .menu-con{
+            display: none;
+            position: absolute;
+            padding: 0;
+            background-color:beige;
+           }
+           .a2{
+            color: black;
+           }
+           li:hover .menu-con{
+            display: block;
+           }
+           li:hover{
+            background-color: rgb(168, 92, 104);
+           }
+
+            /*  */
+            /* bài 2 */
+            .tinhka1{
+                background-image: url(o.jpg);
+                position: relative;
+                padding: 40px;
+            }
+            .tinhka2{
+                text-align: center;
+                border: 1px solid;
+                padding: 20px;
+                background-color: rgb(214, 208, 208);
+                opacity: 0.8;
+                font-size: 20px;
+            }
+            /*  */
+            /* bai 3 */
+            .tinhka3{
+                border: 1px solid;
+                width: 700px;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .tinhka4{
+                margin-left:80px;
+            }
+            input{
+                padding: 10px;
+                width: 500px;
+            }
+            select{
+                padding: 10px;
+                width: 525px;
+            }
+            button{
+                padding: 10px;
+                width: 525px;
+                background-color:rgb(0, 124, 83) ;
+            }
+            button:hover{
+                background-color: rgb(8, 134, 92);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>bài 1</h1>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Luyện tập</a></li>
+            <li><a href="#">Thi đấu</a></li>
+            <li><a href="#">Đánh giá</a></li>
+            <li><a href="#">Thảo luận</a></li>
+            <li><a href="#">Xếp hạng</a></li>
+            <li><a href="#">Chia sẻ</a></li>
+            <li class="li1"><a href="#">Học tập</a>
+                <ul class="menu-con">
+                    <li><a class="a2" href="#">HTML</a></li>
+                    <li><a class="a2" href="#">CSS</a></li>
+                    <li><a class="a2" href="#">Javascrip</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <br>
+        <h1>bài 2</h1>
+        <!--  -->
+        <hr>
+        <div class="tinhka1">
+            <div class="tinhka2">
+                <p id="a1"> this is some text that is placed in hte transpareas</p>
+            </div>
+        </div>
+        <hr>
+        <!--  -->
+        <h1>Bài 3</h1>
+        <div class="tinhka3">
+            <div class="tinhka4">
+            <form action="/action_page.php">
+                <label for="name">First Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Your name.."><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" id="lname" placeholder="Your last name"><br>
+                <label for="text">Coutruy</label><br>
+                <select name="text" id="">
+                    <option value="">Australia</option>
+                    <option value="">Australia</option>
+                    <option value="">Australia</option>
+                </select><br>
+                <br>
+                <button>Try it Yourself >></button>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

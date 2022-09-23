@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>me nenu ngang</title>
+        <style>
+            /* css menu */
+            .menu ul li {
+                position: -webkit-sticky;
+                top: 0;
+                position: sticky;
+            }
+           .menu ul{
+            list-style-type:none;
+            text-align: center;
+           }
+           ul{
+            background-color: chartreuse;
+           }
+           .menu ul li{
+            display: inline-table;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+           }
+           .menu ul li a{
+            display: block;
+            color:rgb(17, 99, 99);
+            text-decoration: none;
+            font-size: 20px;
+           }
+           .menu ul li a:hover{
+            background-color:aquamarine;
+            color: red;
+           }
+           .menu1{
+            display: none;
+            padding: 0;
+            background: blueviolet;
+            color:aliceblue
+           }
+           li:hover .menu1{
+            display: block;
+            position: absolute;
+           }
+           .menu1 .a1{
+            color: white;
+           }
+        </style>
+    </head>
+    <body style="height:1000px ;">
+        <div class="menu">
+            <ul>
+                <li class="li1"><a href="#">Home</a></li>
+                <li><a href="#">Bảng Tin</a></li>
+                <li><a href="#">Video ngán</a></li>
+                <li><a href="#">Thảo luận</a></li>
+                <li><a href="#">Diễn Đàn</a></li>
+                <li class="li2"><a href="#">Login</a></li>
+                <li class="li3"><a href="#">Đăng ký</a>
+                     <ul class="menu1">
+                        <li><a class="a1" href="#">DK  SĐT</a></li>
+                        <li><a class="a1" href="#">ĐK  email</a></li>
+                        <li><a class="a1" href="#">DK  icloud</a></li>
+                        <li><a class="a1" href="#">HD Dk</a></li>
+                    </ul> 
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

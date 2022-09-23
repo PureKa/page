@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      ul{
+        list-style-type: none;
+      }
+      a{
+        text-decoration: none;
+      }
+      .div1{
+        display: flex;
+        justify-content: center;
+      }
+      ul.ul1{
+        display: flex;
+      }
+     ul.ul1 li{
+      max-width: 524px;
+      overflow: hidden;
+     }
+     ul.ul1 li a{
+      position: relative;
+      display: block;
+     }
+     ul.ul1 li img{
+      max-width: 100%;
+      display: block;
+     }
+     ul.ul1 li a .div2{
+      position: absolute;
+      font-weight: bold;
+      letter-spacing: 2px;
+      bottom: 0;
+      
+     }
+     ul.ul1 li:hover img{
+      opacity: 0.7;
+      background-color: aqua;
+     }
+     .div2{
+      background-color: aqua;
+      padding: 60px;
+      padding-left:100px ;
+      padding-right: 160px;
+      opacity: 0.5;
+      display: none;
+     }
+      ul.ul1 li:hover img + .div2{
+      display: block;
+     }
+
+    </style>
+</head>
+<body>
+  <div class="div1">
+   <ul class="ul1">
+    <li><a href=""><img src="goku.jpg" alt="">
+      <div class="div2"><i style="font-size:60px ;" class="fas fa-eye"></i></div>
+    </a></li>
+    <li><a href=""><img src="goku.jpg" alt="">
+      <div class="div2"><i style="font-size:60px ;" class="fas fa-eye"></i></div></a></li>
+   </ul>
+  </div>
+
+</body>
+</html>
